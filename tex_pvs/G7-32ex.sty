@@ -1,0 +1,184 @@
+% This package designed and commented in russian utf-8 encoding.
+%
+% Лицензия GNU GPL v2 и совместимые
+%
+% Автор - Евгений Слезко, e.slezko@gmail.com
+%
+% Различные улучшения для стиля G7-32. Включает:
+% - команды создания глав, не переходящих на новую страницу;
+% - твики, отображающие точки после номеров разделов (chapter,
+%   section и т.д.), а также после номеров рисунков в подписях
+%   (взято из пакета http://vedeneev.ru/tex/corrcounters.sty и
+%   адаптировано для G7-32).
+\ProvidesPackage{G7-32ex}[2011/02/26 v1.00 Some improvements for G7-32]
+
+% Нумерация списков цифрами. Нарушение ГОСТ.
+\renewcommand{\theenumi}{\arabic{enumi}}
+
+% Значок (R) в верхнем индексе
+\newcommand{\reg}{\textsuperscript{\textregistered}}
+
+% Глава, не начинающаяся с новой страницы
+\newcommand{\nchapter}{%
+ \if@figuresonchapter%
+  \addtocounter{totalfigure}{\c@figure}\setcounter{figure}{0}%
+ \fi%
+ \if@tablesonchapter%
+  \addtocounter{totaltable} {\c@table }\setcounter{table}{0}%
+ \fi%
+ \@startsection{chapter}{0}%
+  {\Gost@ChapterIndent}{5ex}{\GostAfterTitleSkip}%
+  {\GostTitleStyle\large\Gost@ChapterStyle}%
+}
+
+% Параграф, после которого запрещен разрыв страницы
+\newcommand{\nparagraph}[1]{\paragraph{#1} \nopagebreak}
+
+%
+% С секциями, кроме абзацного отступа в первом абзаце,
+% устроим так, чтобы в заголовках после номера ставилась точка.
+% Например: 4.3. Кое-что о слонах
+%
+% Чтобы сохранить возможность возврата к стандарту,
+% введем команды \aftersectionseparator и т.п. (см. ниже)
+% и определим их точкой. Чтобы вернуться к сандарту, надо переопределить
+% их на \relax или {}
+% Можно определить их и еще как-нибудь, если такое взбредет в голову.
+%
+% Заметим, что, если просто сказать что-нибудь наподобие
+%  \def\thesection{\arabic{chapter}.\arabic{section}.} ,
+% то возникнут проблемы с \label и \ref .
+%
+\def\@aftersepkern{\kern-.5em}
+\def\postchapter{.}
+\def\postsection{.\@aftersepkern}
+\def\postsubsection{.\@aftersepkern}
+\def\postsubsubsection{.\@aftersepkern}
+\def\postparagraph{.\@aftersepkern}
+\def\postsubparagraph{.\@aftersepkern}
+\def\presection{}
+\def\presubsection{}
+\def\presubsubsection{}
+\def\preparagraph{}
+\def\presubparagraph{}
+%
+%  Приступим к постановке точек после номеров...
+%
+\def\@sect#1#2#3#4#5#6[#7]#8{\ifnum #2>\c@secnumdepth
+     \let\@svsec\@empty\else
+     \refstepcounter{#1}\edef\@svsec{%
+     \csname pre#1\endcsname % Добавил строку
+     \csname the#1\endcsname
+     \csname post#1\endcsname % Добавил строку
+\hskip 1em}\fi
+     \@tempskipa #5\relax
+      \ifdim \@tempskipa>\z@
+        \begingroup #6\relax
+          \@hangfrom{\hskip #3\relax\@svsec
+                   }{\interlinepenalty \@M \ignorespaces#8\par}%
+% Вставил в предыдущей строке \ignorespaces
+% Здесь и далее такие добавки - против лишних пробелов, появляющихся,
+% если аргумент sectioning-команды начинается с пробела.
+        \endgroup
+       \csname #1mark\endcsname{\protect\ignorespaces #7}\addcontentsline
+% Добавил два token'а перед #7
+         {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                      \protect\numberline{\csname the#1\endcsname
+                     \csname post#1\endcsname % Добавил строку
+}\fi
+\protect\ignorespaces #7}\else
+% Добавил два token'а перед #7
+        \def\@svsechd{#6\hskip #3\relax  %% \relax added 2 May 90
+                   \@svsec #8\csname #1mark\endcsname
+                      {\protect\ignorespaces #7}\addcontentsline
+% Добавил два token'а перед #7
+                           {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                             \protect\numberline{\csname the#1\endcsname
+                          \csname post#1\endcsname % Добавил строку
+}\fi
+\protect\ignorespaces #7}}\fi
+% Добавил два token'а перед #7
+     \@xsect{#5}}
+\def\@ssect#1#2#3#4#5{\@tempskipa #3\relax
+   \ifdim \@tempskipa>\z@
+     \begingroup #4\@hangfrom{\hskip #1}{\interlinepenalty \@M
+\ignorespaces #5\par}\endgroup % добавил \ignorespaces перед #5
+   \else \def\@svsechd{#4\hskip #1\relax
+\ignorespaces #5}\fi % добавил \ignorespaces перед #5
+    \@xsect{#3}}
+% После номеров глав тоже пусть стоят точки:
+%
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@\raggedright
+    \ifnum \c@secnumdepth >\m@ne
+     \huge\bf \@chapapp{} \thechapter\postchapter % добавлено \postchapter
+    \par
+    \vskip 20\p@ \fi
+    \Huge \bf
+    \ignorespaces #1\par % добавил \ignorespaces
+    \nobreak
+    \vskip 40\p@
+  }}
+\def\@makeschapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright
+    \Huge \bf
+    \ignorespaces #1\par % добавил \ignorespaces
+    \nobreak
+    \vskip 40\p@
+  }}
+%
+% Сделаем так, чтоб в оглавлении точки шли и после номеров глав...
+%
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+        \refstepcounter{chapter}%
+        \typeout{\@chapapp\space\thechapter.}%
+        \addcontentsline{toc}{chapter}{\protect
+        \numberline{\thechapter
+              \postchapter % Добавил строку
+}%
+\protect\ignorespaces #1}\else % Добавил два token'а перед #1
+      \addcontentsline{toc}{chapter}{\protect\ignorespaces#1}\fi
+% В предыдущей строчке вставлено два token'а перед #1
+   \chaptermark{\protect\ignorespaces #1}%
+   \addtocontents{lof}%
+       {\protect\addvspace{10\p@}} % Adds between-chapter space
+   \addtocontents{lot}%
+       {\protect\addvspace{10\p@}} % to lists of figs & tables.
+   \if@twocolumn                   % Tests for two-column mode.
+           \@topnewpage[\@makechapterhead{#2}]%
+     \else \@makechapterhead{#2}%
+           \@afterheading          % Routine called after chapter and
+     \fi}                          % section heading.
+%
+% Теперь подправим подписи к рисункам и таблицам
+%
+\newcommand{\Captionwidth}{\textwidth}
+\newcommand{\Captionlinestretch}{1.0}
+\newcommand{\Captionfontsize}{\normalsize}
+
+\message{captions,}
+\long\def\@makecaption#1#2{%
+  \vskip 5\p@
+  \setbox\@tempboxa\hbox{\Captionfontsize #1. #2}% Заменили двоеточие на точку...
+  \ifdim \wd\@tempboxa >\Captionwidth
+  {
+	\renewcommand{\baselinestretch}{\Captionlinestretch}
+	\selectfont
+	\centerline{
+		\begin{tabular}{p{\Captionwidth}}
+			\unhbox\@tempboxa \\
+		\end{tabular}
+	}\par
+  }
+  \else \centerline{\box\@tempboxa}\fi
+  \vskip 5\p@
+}
+\long\def\@caption#1[#2]#3{\par\addcontentsline{\csname
+  ext@#1\endcsname}{#1}{\protect\numberline{\csname
+  the#1\endcsname.}{\ignorespaces #2}}\begingroup
+    \@parboxrestore
+    \normalsize
+    \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces #3}\par
+  \endgroup}

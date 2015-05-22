@@ -1,0 +1,66 @@
+\chapter{Технологический раздел}
+
+Раздел содержит описание решения технологических задач.
+
+\section{Описания файла конфигурации, параметров командной строки}
+Рассмотрим минимальный список поддерживаемых параметров командной строки при запуске SMTP-сервера:
+
+\begin{description}
+
+\item[MailDirPath] корневой каталог для сообщений в формате Maildir;
+\item[LogFileName] имя файла журнала (лог);
+\item[WorkersCount] число рабочих процессов;
+\item[Port] порт привязки сервера SMTP;
+\item[DefaultFolder] имя папки для хранения почты для удаленной доставки;
+\end{description}
+
+\section{Требования к системе}
+
+Ниже указаны версии основных использованных утилит и библиотек:
+\begin{itemize}
+\item GNU C Compiler 4.5.3.
+\item GNU Make 3.81.
+\item cfsm 
+\end{itemize}
+
+\section{Тестирование программы}
+Далее приведены описание и результаты  системного тестирования.
+
+\subsection{Результаты системного тестирования}
+
+\subsubsection{Успешная отправка письма}
+
+\begin{verbatim}
+receive: 
+rc = 20
+sock = 3
+220 Service ready
+Send: 
+HELO
+receive: 
+250 OK
+Send: 
+MAIL FROM: rcpt@domain.name
+250 OK
+Send: 
+RCPT TO: rcpt@domain.name
+250 OK
+Send: 
+DATA
+250 OK
+Send: 
+123
+250 OK
+Send: 
+123
+250 OK
+Send: 
+.
+250 OK
+Send: 
+QUIT
+250 OK
+\end{verbatim}
+
+
+

@@ -1,0 +1,41 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.14)  8 JAN 2014 15:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**G7-32.cls
+(./G7-32.cls
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, bu
+lgarian, ukrainian, russian, loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `G7-32'.
+
+Package: G7-32 2003/07/01 v1.0 Non Standard LaTeX document class
+(./G2-105.sty
+Package: G2-105 2003/07/07 v1.00 General reqs. GOST 2.105-95
+
+
+! LaTeX Error: File `GostBase.clo' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: clo)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.36 \input{GostBase.clo}
+                         ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 16 strings out of 494816
+ 221 string characters out of 3177878
+ 47775 words of memory out of 3000000
+ 3299 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 12i,0n,8p,257b,10s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

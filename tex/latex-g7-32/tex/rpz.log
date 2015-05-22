@@ -1,0 +1,1911 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.14)  30 MAY 2014 12:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**rpz
+(./rpz.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, bu
+lgarian, ukrainian, russian, loaded.
+(./G7-32.cls
+Document Class: G7-32 2003/07/01 v1.0 Non Standard LaTeX document class
+(./G2-105.sty
+Package: G2-105 2003/07/07 v1.00 General reqs. GOST 2.105-95
+ (./GostBase.clo
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+))
+\c@totalpage=\count79
+\c@totaltable=\count80
+\c@totalfigure=\count81
+\c@totalbib=\count82
+\GostAfterTitleSkip=\skip41
+\GostBetweenTitleSkip=\skip42
+\GostBeforTitleSkip=\skip43
+\GostBeforNoTitleSkip=\skip44
+\GostHTitleSpace=\skip45
+\GostTitleIndent=\skip46
+\Gost@ChapterIndent=\skip47
+\Gost@MainChapterIndent=\skip48
+\Gost@TitleDropSkip=\skip49
+\c@chapter=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\NirTitleDropSkip=\skip50
+
+(/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
+Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 111.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2012/04/20 UCS: Unicode global data
+)
+\uc@secondtry=\count87
+\uc@combtoks=\toks14
+\uc@combtoksb=\toks15
+\uc@temptokena=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+\symT2Aletters=\mathgroup4
+)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)<<t2a.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen102
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/russianb.ldf
+Language: russianb 2008/03/21 v1.1r Russian support from the babel system
+Package babel Info: Making " an active character on input line 199.
+LaTeX Font Info:    Overwriting symbol font `T2Aletters' in version `bold'
+(Font)                  T2A/cmr/m/n --> T2A/cmr/bx/n on input line 283.
+LaTeX Font Info:    Overwriting math alphabet `\cyrmathsf' in version `bold'
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 283.
+LaTeX Font Info:    Overwriting math alphabet `\cyrmathit' in version `bold'
+(Font)                  T2A/cmr/m/it --> T2A/cmr/bx/it on input line 283.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/flafter.sty
+Package: flafter 2000/07/23 v1.2i Standard LaTeX floats after reference (FMi)
+)
+\GostItemGap=\skip51
+\GostItemIndent=\skip52
+\GostItemNestedIndent=\skip53
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+\symOMLletters=\mathgroup7
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\symOMSletters=\mathgroup8
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks21
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks22
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks23
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/leqno.clo
+File: leqno.clo 1998/08/17 v1.1c Standard LaTeX option (left equation numbers)
+)
+\Gost@EqRemLen=\skip57
+\Gost@@EqRemLen=\skip58
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+\captionmargin=\dimen112
+\captionmargin@=\dimen113
+\captionwidth=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = undefined.
+\c@ContinuedFloat=\count101
+)
+\c@figure=\count102
+\c@table=\count103
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count104
+\LTcapwidth=\dimen118
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count105
+\LT@rows=\count106
+\c@LT@tables=\count107
+\c@LT@chunks=\count108
+\LT@p@ftn=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks27
+\footnotemargin=\dimen119
+\c@pp@next@reset=\count109
+\c@@fnserial=\count110
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+\bibindent=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count111
+\Gm@cntv=\count112
+\c@Gm@tempcnt=\count113
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
+\Gm@dimlist=\toks28
+) (./G7-32.sty
+Package: G7-32 2003/07/07 v1.00 Titles for GOST 7.32-2001
+))
+\@input{preamble.inc.aux}
+\openout2 = `preamble.inc.aux'.
+
+(./preamble.inc.tex
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen129
+\Hy@linkcounter=\count114
+\Hy@pagecounter=\count115
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+\symPD1letters=\mathgroup9
+)
+\Hy@SavedSpaceFactor=\count116
+Package hyperref Info: Option `unicode' set `true' on input line 3177.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/05/13 v6.82q Hyperref: PDF Unicode definition (HO)
+\symPUletters=\mathgroup10
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 3941.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3941.
+Package hyperref Info: Option `unicode' set `true' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count118
+\Field@Width=\dimen130
+\Fld@charsize=\dimen131
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring ON on input line 5791.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count119
+\c@Item=\count120
+\c@Hfootnote=\count121
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count122
+\c@bookmark@seq@number=\count123
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip65
+)
+(./cyrtimespatched.sty
+Package: cyrtimespatched 2001/02/08 scalable-cyrfonts
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count124
+))
+\Gin@req@height=\dimen132
+\Gin@req@width=\dimen133
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box32
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen134
+\pgf@y=\dimen135
+\pgf@xa=\dimen136
+\pgf@ya=\dimen137
+\pgf@xb=\dimen138
+\pgf@yb=\dimen139
+\pgf@xc=\dimen140
+\pgf@yc=\dimen141
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count125
+\c@pgf@countb=\count126
+\c@pgf@countc=\count127
+\c@pgf@countd=\count128
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count129
+\pgfsyssoftpath@bigbuffer@items=\count130
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen142
+\pgfmath@count=\count131
+\pgfmath@box=\box33
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count132
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen143
+\pgf@picmaxx=\dimen144
+\pgf@picminy=\dimen145
+\pgf@picmaxy=\dimen146
+\pgf@pathminx=\dimen147
+\pgf@pathmaxx=\dimen148
+\pgf@pathminy=\dimen149
+\pgf@pathmaxy=\dimen150
+\pgf@xx=\dimen151
+\pgf@xy=\dimen152
+\pgf@yx=\dimen153
+\pgf@yy=\dimen154
+\pgf@zx=\dimen155
+\pgf@zy=\dimen156
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen157
+\pgf@path@lasty=\dimen158
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen159
+\pgf@shorten@start@additional=\dimen160
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@layerbox@main=\box36
+\pgf@picture@serial@count=\count133
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen161
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen162
+\pgf@pt@y=\dimen163
+\pgf@pt@temp=\dimen164
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen165
+\pgf@sys@shading@range@num=\count134
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box37
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box38
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen166
+\pgf@nodesepend=\dimen167
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen168
+\pgffor@skip=\dimen169
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count135
+\pgfplotmarksize=\dimen170
+)
+\tikz@lastx=\dimen171
+\tikz@lasty=\dimen172
+\tikz@lastxsaved=\dimen173
+\tikz@lastysaved=\dimen174
+\tikzleveldistance=\dimen175
+\tikzsiblingdistance=\dimen176
+\tikz@figbox=\box39
+\tikz@tempbox=\box40
+\tikztreelevel=\count136
+\tikznumberofchildren=\count137
+\tikznumberofcurrentchild=\count138
+\tikz@fig@count=\count139
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count140
+\pgfmatrixcurrentcolumn=\count141
+\pgf@matrix@numberofcolumns=\count142
+)
+\tikz@expandcount=\count143
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrow
+s.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
+\arrowsize=\dimen177
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryposit
+ioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
+)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshado
+ws.code.tex
+File: tikzlibraryshadows.code.tex 2008/01/13 v2.10 (rcs-revision 1.3)
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadin
+gs.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v2.10 (rcs-revision 1.2)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v2.10 (rcs-revision 1.3)
+))))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks38
+)
+\@input{listings.inc.aux}
+\openout2 = `listings.inc.aux'.
+
+(./listings.inc.tex
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count144
+\lst@gtempboxa=\box41
+\lst@token=\toks39
+\lst@length=\count145
+\lst@currlwidth=\dimen178
+\lst@column=\count146
+\lst@pos=\count147
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count148
+\lst@lineno=\count149
+\lst@maxwidth=\dimen181
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count150
+\lst@skipnumbers=\count151
+\lst@framebox=\box42
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count152
+\rotFPtop=\skip66
+\rotFPbot=\skip67
+\rot@float@box=\box43
+\rot@mess@toks=\toks40
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+\@input{macros.inc.aux}
+\openout2 = `macros.inc.aux'.
+
+(./macros.inc.tex) (./rpz.aux (./00-abstract.aux) (./10-defines.aux)
+(./11-abbrev.aux) (./12-intro.aux) (./20-analysis.aux) (./30-design.aux
+
+LaTeX Warning: Label `F:F2' multiply defined.
+
+) (./40-impl.aux) (./50-research.aux) (./80-conclusion.aux) (./81-biblio.aux)
+(./90-appendix1.aux) (./91-appendix2.aux))
+\openout1 = `rpz.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 18.
+
+(/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/t2aftm.fd
+File: t2aftm.fd 2012/09/14 Fontinst v1.933 font definitions for T2A/ftm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-29.36449pt
+* \headheight=14.0pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring ON on input line 18.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count153
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
+
+(./rpz.out) (./rpz.out)
+\@outlinefile=\write4
+\openout4 = `rpz.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count154
+\scratchdimen=\dimen182
+\scratchbox=\box45
+\nofMPsegments=\count155
+\nofMParguments=\count156
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen183
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
+\everyMPtoPDFconversion=\toks42
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\c@lstlisting=\count160
+\openout2 = `00-abstract.aux'.
+
+ (./00-abstract.tex
+LaTeX Font Info:    Font shape `T2A/ftm/bx/n' in size <14.4> not available
+(Font)              Font shape `T2A/ftm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T2A/ftm/bx/n' in size <17.28> not available
+(Font)              Font shape `T2A/ftm/b/n' tried instead on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-4.def
+File: uni-4.def 2012/04/20 UCS: Unicode data U+0400..U+04FF
+)) [1
+
+
+
+
+
+
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./rpz.toc
+LaTeX Font Info:    Try loading font information for OT1+ftm on input line 1.
+
+(/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/ot1ftm.fd
+File: ot1ftm.fd 2012/09/14 Fontinst v1.933 font definitions for OT1/ftm.
+)<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for PD1+cmr on input line 2.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 2.
+
+
+LaTeX Font Warning: Font shape `PD1/cmr/m/n' undefined
+(Font)              using `PD1/pdf/m/n' instead on input line 2.
+
+LaTeX Font Info:    Try loading font information for PU+cmr on input line 2.
+LaTeX Font Info:    No file PUcmr.fd. on input line 2.
+
+LaTeX Font Warning: Font shape `PU/cmr/m/n' undefined
+(Font)              using `PU/pdf/m/n' instead on input line 2.
+
+[2
+
+
+]
+Underfull \hbox (badness 6658) in paragraph at lines 35--35
+ [][] [][][]\T2A/ftm/m/n/14.4 Пользовательский ин^^?тер^^?фейс раз^^?ра^^?ба^^?
+ты^^?ва^^?е^^?мо^^?го про^^? 
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `rpz.toc'.
+
+ [3]
+\openout2 = `10-defines.aux'.
+
+ (./10-defines.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+[]
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 3--5
+\T2A/ftm/m/n/14.4 Инструмент, раз^^?би^^?ва^^?ю^^?щий дан^^?ные, или функ^^?ции
+, или опе^^?ра^^?то^^?ры на
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2012/04/20 UCS: Unicode data U+2000..U+20FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\T2A/ftm/m/n/14.4 совокупность изоб^^?ра^^?же^^?ний^^?/ви^^?део,
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 13--14
+[]\T2A/ftm/m/n/14.4 отношение дли^^?ны сжа^^?тых дан^^?ных к
+ []
+
+) [4
+
+
+]
+\openout2 = `11-abbrev.aux'.
+
+ (./11-abbrev.tex
+Underfull \hbox (badness 2486) in paragraph at lines 25--27
+[]\T2A/ftm/m/n/14.4 аддитивная цве^^?то^^?вая мо^^?дель, в ко^^?то^^?рой цвет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]\T2A/ftm/m/n/14.4 индекс струк^^?тур^^?но^^?го сход^^?ства (от ан^^?гл. struc
+ture
+ []
+
+) [5
+
+
+
+]
+\openout2 = `12-intro.aux'.
+
+ (./12-intro.tex [6
+
+
+
+]) [7]
+\openout2 = `20-analysis.aux'.
+
+ (./20-analysis.tex [8
+
+
+
+]
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2012/04/20 UCS: Unicode data U+0000..U+00FF
+) [9] [10] [11]
+[12]
+Underfull \hbox (badness 1502) in paragraph at lines 193--210
+[]\T2A/ftm/m/n/14.4 Это си^^?сте^^?ма ко^^?ди^^?ро^^?ва^^?ния ви^^?део^^?изоб^^
+?ра^^?же^^?ния с при^^?ме^^?не^^?ни^^?ем
+ []
+
+[13]
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 215.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 215.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 215.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 215.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 215.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 215.
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]\T2A/ftm/m/n/12 каждый кадр,
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 219--220
+[]\T2A/ftm/m/n/12 не ис^^?поль^^?зу^^?ет из^^?бы^^?точ^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]\T2A/ftm/m/n/12 каждый кадр,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]\T2A/ftm/m/n/12 наличие про^^?зрач^^?но^^?сти,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T2A/ftm/m/n/12 воз^^?мож^^?ность гам^^?ма
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 221--222
+[]\T2A/ftm/m/n/12 не ис^^?поль^^?зу^^?ет из^^?бы^^?точ^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\T2A/ftm/m/n/12 основан на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+\T2A/ftm/m/n/12 Huffyuv, ис^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+\T2A/ftm/m/n/12 ду^^?щий кадр
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 223--223
+\T2A/ftm/m/n/12 при от^^?сут^^?ствии
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 223--224
+[]\T2A/ftm/m/n/12 не ис^^?поль^^?зу^^?ет из^^?бы^^?точ^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[]\T2A/ftm/m/n/12 Motion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[]\T2A/ftm/m/n/12 каждый кадр,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+\T2A/ftm/m/n/12 ал^^?го^^?ритм JPEG
+ []
+
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]\T2A/ftm/m/n/12 каждый кадр,
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 299--300
+[]\T2A/ftm/m/n/12 не ис^^?поль^^?зу^^?ет из^^?бы^^?точ^^?
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 299--300
+\T2A/ftm/m/n/12 ду кад^^?ра^^?ми, ар^^?те^^?фак^^?ты
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]\T2A/ftm/m/n/12 разбивает кад^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+\T2A/ftm/m/n/12 ры по ти^^?пам,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]\T2A/ftm/m/n/12 может ис^^?поль^^?зо^^?вать^^?ся
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+[]\T2A/ftm/m/n/12 поддерживает толь^^?ко
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 301--302
+\T2A/ftm/m/n/12 про^^?грес^^?сив^^?ную раз^^?верт^^?
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 305--306
+[]\T2A/ftm/m/n/12 cтупенчатость при мед^^?
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 307--307
+[]\T2A/ftm/m/n/12 наложение тит^^?ров, спе^^?
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 307--307
+\T2A/ftm/m/n/12 ни^^?за^^?ции аудио и ви^^?део
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+[]\T2A/ftm/m/n/12 специализирован для
+ []
+
+[16] [17] [18] [19] <inc/graphics/dec.png, id=405, 683.55376pt x 603.25375pt>
+File: inc/graphics/dec.png Graphic file (type png)
+
+<use inc/graphics/dec.png>
+Package pdftex.def Info: inc/graphics/dec.png used on input line 424.
+(pdftex.def)             Requested size: 273.41666pt x 241.29723pt.
+ [20 <./inc/graphics/dec.png>] [21] [22]
+<inc/graphics/d4.png, id=435, 900.36375pt x 402.50375pt>
+File: inc/graphics/d4.png Graphic file (type png)
+
+<use inc/graphics/d4.png>
+Package pdftex.def Info: inc/graphics/d4.png used on input line 523.
+(pdftex.def)             Requested size: 360.13911pt x 160.99864pt.
+
+<inc/graphics/schema.png, id=437, 410.2828pt x 356.83313pt>
+File: inc/graphics/schema.png Graphic file (type png)
+
+<use inc/graphics/schema.png>
+Package pdftex.def Info: inc/graphics/schema.png used on input line 539.
+(pdftex.def)             Requested size: 205.1409pt x 178.41612pt.
+ [23 <./inc/graphics/d4.png>]
+<inc/graphics/3dwave.png, id=445, 404.26031pt x 282.30469pt>
+File: inc/graphics/3dwave.png Graphic file (type png)
+
+<use inc/graphics/3dwave.png>
+Package pdftex.def Info: inc/graphics/3dwave.png used on input line 565.
+(pdftex.def)             Requested size: 303.19449pt x 211.72798pt.
+ [24 <./inc/graphics/schema.png>] [25 <./inc/graphics/3dwave.png>] [26] [27] [2
+8]
+Underfull \hbox (badness 1043) in paragraph at lines 706--712
+[]\T2A/ftm/m/n/14.4 Для опре^^?де^^?ле^^?ния из^^?бы^^?точ^^?но^^?сти на ви^^?д
+ео необ^^?хо^^?ди^^?мо про^^?ве^^?сти
+ []
+
+[29] <inc/graphics/alg.pdf, id=488, 486.81876pt x 371.3875pt>
+File: inc/graphics/alg.pdf Graphic file (type pdf)
+
+<use inc/graphics/alg.pdf>
+Package pdftex.def Info: inc/graphics/alg.pdf used on input line 735.
+(pdftex.def)             Requested size: 365.11317pt x 278.53993pt.
+ [30 <./inc/graphics/alg.pdf>]
+<inc/graphics/method1.pdf, id=510, 385.44pt x 451.6875pt>
+File: inc/graphics/method1.pdf Graphic file (type pdf)
+
+<use inc/graphics/method1.pdf>
+Package pdftex.def Info: inc/graphics/method1.pdf used on input line 766.
+(pdftex.def)             Requested size: 289.07928pt x 338.76479pt.
+) [31] [32 <./inc/graphics/method1.pdf>]
+\openout2 = `30-design.aux'.
+
+
+(./30-design.tex [33
+
+
+
+]
+<inc/graphics/uml1.pdf, id=534, 595.22375pt x 478.78876pt>
+File: inc/graphics/uml1.pdf Graphic file (type pdf)
+
+<use inc/graphics/uml1.pdf>
+Package pdftex.def Info: inc/graphics/uml1.pdf used on input line 45.
+(pdftex.def)             Requested size: 386.89085pt x 311.209pt.
+ [34] [35 <./inc/graphics/uml1.pdf>]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 96.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+<inc/graphics/alg1.pdf, id=552, 516.93124pt x 683.55376pt>
+File: inc/graphics/alg1.pdf Graphic file (type pdf)
+
+<use inc/graphics/alg1.pdf>
+Package pdftex.def Info: inc/graphics/alg1.pdf used on input line 104.
+(pdftex.def)             Requested size: 387.69748pt x 512.66406pt.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 109.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/koi8-r.def
+File: koi8-r.def 1999/11/16 v1.0d Input encoding file
+) [36] [37 <./inc/graphics/alg1.pdf>]
+LaTeX Font Info:    Font shape `T2A/ftm/bx/n' in size <12> not available
+(Font)              Font shape `T2A/ftm/b/n' tried instead on input line 115.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/koi8-r.def
+File: koi8-r.def 1999/11/16 v1.0d Input encoding file
+) <inc/graphics/alg2.pdf, id=594, 508.90125pt x 631.35875pt>
+File: inc/graphics/alg2.pdf Graphic file (type pdf)
+
+<use inc/graphics/alg2.pdf>
+Package pdftex.def Info: inc/graphics/alg2.pdf used on input line 143.
+(pdftex.def)             Requested size: 381.675pt x 473.5179pt.
+ [38] [39 <./inc/graphics/alg2.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/koi8-r.def
+File: koi8-r.def 1999/11/16 v1.0d Input encoding file
+)
+LaTeX Font Info:    Try loading font information for OMS+ftm on input line 180.
+
+LaTeX Font Info:    No file OMSftm.fd. on input line 180.
+
+
+LaTeX Font Warning: Font shape `OMS/ftm/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textasteriskcentered' on input line 180.
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 220--227
+[]\T2A/ftm/m/n/14.4 В ал^^?го^^?рит^^?ме \T2A/cmtt/m/n/14.4 Randomized_Select \
+T2A/ftm/m/n/14.4 ис^^?поль^^?зу^^?ет^^?ся про^^?це^^?ду^^?ра
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 220--227
+\T2A/ftm/m/n/14.4 ^^U ран^^?до^^?мо^^?зи^^?ро^^?ван^^?ный ал^^?го^^?ритм, по^^?
+сколь^^?ку его по^^?ве^^?де^^?ние ча^^?стич^^?но
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 220--227
+\T2A/ftm/m/n/14.4 опре^^?де^^?ля^^?ет^^?ся вы^^?во^^?дом ге^^?не^^?ра^^?то^^?ра
+ слу^^?чай^^?ных чи^^?сел. Код про^^?це^^?ду^^?ры
+ []
+
+[41] (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/koi8-r.def
+File: koi8-r.def 1999/11/16 v1.0d Input encoding file
+) [42]
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/koi8-r.def
+File: koi8-r.def 1999/11/16 v1.0d Input encoding file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/koi8-r.def
+File: koi8-r.def 1999/11/16 v1.0d Input encoding file
+) [43]
+<inc/graphics/modules.pdf, id=714, 663.47874pt x 236.885pt>
+File: inc/graphics/modules.pdf Graphic file (type pdf)
+
+<use inc/graphics/modules.pdf>
+Package pdftex.def Info: inc/graphics/modules.pdf used on input line 304.
+(pdftex.def)             Requested size: 398.0903pt x 142.13208pt.
+ [44 <./inc/graphics/modules.pdf>] [45]) [46]
+\openout2 = `40-impl.aux'.
+
+
+(./40-impl.tex
+Underfull \hbox (badness 1748) in paragraph at lines 8--10
+\T2A/ftm/m/n/14.4 при ис^^?поль^^?зо^^?ва^^?нии объ^^?ектно-^^?ори^^?ен^^?ти^^?
+ро^^?ван^^?но^^?го под^^?хо^^?да, обес^^?пе^^?чи^^?ва^^?ет
+ []
+
+[47
+
+
+
+] <inc/graphics/classes.pdf, id=736, 709.65125pt x 424.58624pt>
+File: inc/graphics/classes.pdf Graphic file (type pdf)
+
+<use inc/graphics/classes.pdf>
+Package pdftex.def Info: inc/graphics/classes.pdf used on input line 64.
+(pdftex.def)             Requested size: 425.79402pt x 254.75371pt.
+ [48]
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+[]\T2A/cmtt/m/n/14.4 std::vector<int> transform_block(IplImage **block, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+\T2A/cmtt/m/n/14.4 block_size, int nChannels, int height, int width, int system
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+[]\T2A/cmtt/m/n/14.4 IplImage ** decode_block(std::vector<int> out_data, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+\T2A/cmtt/m/n/14.4 block_size, int nChannels, int height, int width, int system
+)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+[]\T2A/cmtt/m/n/14.4 void DirectTransform(float ****image_data, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+\T2A/cmtt/m/n/14.4 nChannels, int img_width, int img_height, int img_depth, int
+
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 96--101
+\T2A/ftm/m/n/14.4 бло^^?ка, вы^^?со^^?та \T2A/cmtt/m/n/14.4 img_height \T2A/ftm
+/m/n/14.4 бло^^?ка, глу^^?би^^?на \T2A/cmtt/m/n/14.4 img_depth \T2A/ftm/m/n/14.
+4 бло^^?ка, ши^^?ри^^?на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+[]\T2A/cmtt/m/n/14.4 void InverseTransform(float ****image_data, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+\T2A/cmtt/m/n/14.4 nChannels, int img_width, int img_height, int img_depth, int
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+\T2A/cmtt/m/n/14.4 width, int height, int depth, int transform_type); \T2A/ftm/
+m/n/14.4 - - ме^^?тод
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 102--107
+\T2A/ftm/m/n/14.4 дан^^?ные бло^^?ка \T2A/cmtt/m/n/14.4 image_data\T2A/ftm/m/n/
+14.4 , ко^^?ли^^?че^^?ство ка^^?на^^?лов \T2A/cmtt/m/n/14.4 nChannels\T2A/ftm/m
+/n/14.4 , ши^^?ри^^?на
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
+[]\T2A/cmtt/m/n/14.4 void DirectTransformIteration(float ****image_data, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
+\T2A/cmtt/m/n/14.4 channel_index, int part_count, int index1, int index2, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
+\T2A/cmtt/m/n/14.4 direction, const std::vector<std::vector<float> > &matrix_ad
+);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
+[]\T2A/cmtt/m/n/14.4 void InverseTransformIteration(float ****image_data, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
+\T2A/cmtt/m/n/14.4 channel_index, int part_count, int index1, int index2, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
+\T2A/cmtt/m/n/14.4 direction, const std::vector<std::vector<float> > &matrix_ad
+);
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/koi8-r.def
+File: koi8-r.def 1999/11/16 v1.0d Input encoding file
+) [50]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+[]\T2A/cmtt/m/n/14.4 float CompareFrames(IplImage &frame1, IplImage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]\T2A/cmtt/m/n/14.4 float CompareFiles(IplImage *frames1, IplImage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
+[]\T2A/cmtt/m/n/14.4 void PrepareMatrix(std::vector<std::vector<double> >
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
+\T2A/cmtt/m/n/14.4 &matrix, int dimension, const std::vector<double> &system) \
+T2A/ftm/m/n/14.4 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+[]\T2A/cmtt/m/n/14.4 std::vector<double> PrepareSystem(int transform_type) \T2A
+/ftm/m/n/14.4 -
+ []
+
+
+Overfull \hbox (47.862pt too wide) in paragraph at lines 164--168
+[]\T2A/cmtt/m/n/14.4 void MultiplyMatrixVector(const std::vector<std::vector<do
+uble>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--168
+\T2A/cmtt/m/n/14.4 > &matrix, double ***image_data, int channel_index, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--168
+\T2A/cmtt/m/n/14.4 part_count, int vector_index, int direction) \T2A/ftm/m/n/14
+.4 - функ^^?ция умно^^?
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 164--168
+\T2A/ftm/m/n/14.4 же^^?ния мат^^?ри^^?цы на век^^?тор гра^^?фи^^?че^^?ских дан^
+^?ных Па^^?ра^^?мет^^?ры: мат^^?ри^^?ца
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 164--168
+\T2A/ftm/m/n/14.4 век^^?то^^?ра для пре^^?об^^?ра^^?зо^^?ва^^?ния \T2A/cmtt/m/n
+/14.4 vector_index\T2A/ftm/m/n/14.4 , на^^?прав^^?ле^^?ние (стро^^?ка или
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+[]\T2A/cmtt/m/n/14.4 void TransposeMatrix(std::vector<std::vector<double> >
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 169--171
+\T2A/cmtt/m/n/14.4 &matrix) \T2A/ftm/m/n/14.4 - функ^^?ция транс^^?по^^?ни^^?ро
+^^?ва^^?ния мат^^?ри^^?цы Па^^?ра^^?мет^^?ры: мат^^?ри^^?ца
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+[]\T2A/cmtt/m/n/14.4 std::vector<int> Decimate(float ****image_data,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+\T2A/cmtt/m/n/14.4 int nChannels, int width, int height, int depth, char
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 178--181
+\T2A/cmtt/m/n/14.4 decimatio_ratio); \T2A/ftm/m/n/14.4 ^^U функ^^?ция уда^^?ле^
+^?ния ча^^?сти гра^^?фи^^?че^^?ских дан^^?ных.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+\T2A/ftm/m/n/14.4 Па^^?ра^^?мет^^?ры: гра^^?фи^^?че^^?ские дан^^?ные \T2A/cmtt/
+m/n/14.4 image_data\T2A/ftm/m/n/14.4 , ко^^?ли^^?че^^?ство ка^^?на^^?лов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
+[]\T2A/cmtt/m/n/14.4 float RandomizedSelect(std::vector<float> &numbers, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--189
+[]\T2A/cmtt/m/n/14.4 int Partition(std::vector<float> &numbers, int left, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
+[]\T2A/cmtt/m/n/14.4 int RandomizedPartition(std::vector<float> &numbers, int
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 189--192
+\T2A/cmtt/m/n/14.4 left, int right); \T2A/ftm/m/n/14.4 - ме^^?тод вы^^?бо^^?ра 
+опор^^?но^^?го эле^^?мен^^?та. Па^^?ра^^?мет^^?ры:
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+[]\T2A/cmtt/m/n/14.4 void WriteEncodedData(char file_name[], std::vector<int>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+[]\T2A/cmtt/m/n/14.4 std::vector<int> ReadEncodedData(char file_name[]) \T2A/ft
+m/m/n/14.4 ^^U
+ []
+
+<inc/graphics/format.png, id=782, 544.0325pt x 303.1325pt>
+File: inc/graphics/format.png Graphic file (type png)
+
+<use inc/graphics/format.png>
+Package pdftex.def Info: inc/graphics/format.png used on input line 210.
+(pdftex.def)             Requested size: 272.01558pt x 151.56587pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
+[]\T2A/cmtt/m/n/14.4 double*** AllocateImageMemory(int channels_count, int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
+\T2A/cmtt/m/n/14.4 row_count, int column_count, double ***image_data) \T2A/ftm/
+m/n/14.4 ^^U функ^^?ция
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 217--220
+\T2A/cmtt/m/n/14.4 channels_count\T2A/ftm/m/n/14.4 , ко^^?ли^^?че^^?ство строк 
+\T2A/cmtt/m/n/14.4 row_count\T2A/ftm/m/n/14.4 , ко^^?ли^^?че^^?ство столб^^?цов
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
+[]\T2A/cmtt/m/n/14.4 void FreeImageMemory(int channels_count, int row_count,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
+\T2A/cmtt/m/n/14.4 int column_count, double ***image_data) \T2A/ftm/m/n/14.4 ^^
+U функ^^?ция осво^^?бож^^?
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 220--224
+\T2A/ftm/m/n/14.4 де^^?ния па^^?мя^^?ти для дан^^?ных о кад^^?ре Па^^?ра^^?мет^
+^?ры: ко^^?ли^^?че^^?ство ка^^?на^^?лов
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 220--224
+\T2A/cmtt/m/n/14.4 channels_count\T2A/ftm/m/n/14.4 , ко^^?ли^^?че^^?ство строк 
+\T2A/cmtt/m/n/14.4 row_count\T2A/ftm/m/n/14.4 , ко^^?ли^^?че^^?ство столб^^?цов
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
+[]\T2A/cmtt/m/n/14.4 void CopyImageData(IplImage *in_image, double
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+[]\T2A/cmtt/m/n/14.4 void WriteImageData(double ***image_data, IplImage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--231
+[]\T2A/cmtt/m/n/14.4 void ConvertArrayToMatrix(std::vector<int> &data, double
+ []
+
+[53] [54 <./inc/graphics/classes.pdf> <./inc/graphics/format.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+[]\T2A/ftm/b/n/14.4 Пользовательский ин^^?тер^^?фейс раз^^?ра^^?ба^^?ты^^?ва^^?
+е^^?мо^^?го про^^?
+ []
+
+[55] <inc/graphics/ui.png, id=802, 643.40375pt x 329.23pt>
+File: inc/graphics/ui.png Graphic file (type png)
+
+<use inc/graphics/ui.png>
+Package pdftex.def Info: inc/graphics/ui.png used on input line 258.
+(pdftex.def)             Requested size: 482.55162pt x 246.92189pt.
+
+Overfull \hbox (27.30751pt too wide) in paragraph at lines 258--259
+ [][] 
+ []
+
+) [56 <./inc/graphics/ui.png (PNG copy)>]
+\openout2 = `50-research.aux'.
+
+ (./50-research.tex [57
+
+
+
+]
+<inc/graphics/image1.png, id=812, 830.10126pt x 498.86375pt>
+File: inc/graphics/image1.png Graphic file (type png)
+
+<use inc/graphics/image1.png>
+Package pdftex.def Info: inc/graphics/image1.png used on input line 54.
+(pdftex.def)             Requested size: 498.0646pt x 299.32056pt.
+
+Overfull \hbox (42.8205pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+[58] <inc/graphics/image2.png, id=819, 860.21375pt x 637.38126pt>
+File: inc/graphics/image2.png Graphic file (type png)
+
+<use inc/graphics/image2.png>
+Package pdftex.def Info: inc/graphics/image2.png used on input line 79.
+(pdftex.def)             Requested size: 516.13223pt x 382.4317pt.
+
+Overfull \hbox (60.88812pt too wide) in paragraph at lines 79--80
+ [][] 
+ []
+
+[59 <./inc/graphics/image1.png>] [60 <./inc/graphics/image2.png>]
+<inc/graphics/image3.png, id=832, 836.12375pt x 582.175pt>
+File: inc/graphics/image3.png Graphic file (type png)
+
+<use inc/graphics/image3.png>
+Package pdftex.def Info: inc/graphics/image3.png used on input line 107.
+(pdftex.def)             Requested size: 418.06085pt x 291.08679pt.
+ [61 <./inc/graphics/image3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]\T2A/ftm/m/n/14.4 Преимущественный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]\T2A/ftm/m/n/14.4 Количество дви^^?же^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]\T2A/ftm/m/n/14.4 Отсутствие дви^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\T2A/ftm/m/n/14.4 же^^?ния в бло^^?ке
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\T2A/ftm/m/n/14.4 вать из^^?бы^^?точ^^?ность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]\T2A/ftm/m/n/14.4 Количество од^^?но^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\T2A/ftm/m/n/14.4 тон^^?ных об^^?ла^^?стей
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 128--129
+[]\T2A/ftm/m/n/14.4 Современные муль^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+\T2A/ftm/m/n/14.4 ти^^?пли^^?ка^^?ции ста^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+\T2A/ftm/m/n/14.4 но^^?вят^^?ся близ^^?ки к
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 130--130
+[]\T2A/ftm/m/n/14.4 Видео в гра^^?да^^?ци^^?ях
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[]\T2A/ftm/m/n/14.4 Пиксели раз^^?но^^?го
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T2A/ftm/m/n/14.4 цве^^?та близ^^?кой яр^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T2A/ftm/m/n/14.4 цве^^?то^^?вой ин^^?фор^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T2A/ftm/m/n/14.4 ма^^?ции близ^^?ки по
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T2A/ftm/m/n/14.4 зна^^?че^^?нию, об^^?ра^^?зу^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\T2A/ftm/m/n/14.4 ют^^?ся од^^?но^^?тон^^?ные
+ []
+
+) [62]
+\openout2 = `80-conclusion.aux'.
+
+ (./80-conclusion.tex) [63
+
+
+
+]
+\openout2 = `81-biblio.aux'.
+
+ (./81-biblio.tex (./rpz.bbl
+Underfull \hbox (badness 1062) in paragraph at lines 12--16
+[]\T2A/ftm/m/it/14.4 Добеши, И. \T2A/ftm/m/n/14.4 Де^^?сять лек^^?ций по вей^^?
+вле^^?там / И. До^^?бе^^?ши. ---
+ []
+
+)) [64
+
+
+
+]
+\openout2 = `90-appendix1.aux'.
+
+ (./90-appendix1.tex
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+
+Overfull \hbox (1.22676pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 6.68194092e-4| 
+ []
+
+
+Overfull \hbox (0.74077pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 4.71742793e-3| 
+ []
+
+
+Overfull \hbox (1.34077pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 3.54892813e-4| 
+ []
+
+
+Overfull \hbox (3.10475pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 -6.88771926e-3| 
+ []
+
+
+Overfull \hbox (3.84277pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 -6.67962023e-3| 
+ []
+
+
+Overfull \hbox (3.99277pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 -5.54004549e-4| 
+ []
+
+
+Overfull \hbox (3.96878pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 -6.05496058e-3| 
+ []
+
+
+Overfull \hbox (1.17877pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 9.55229711e-4| 
+ []
+
+
+Overfull \hbox (1.01074pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 2.61296728e-3| 
+ []
+
+
+Overfull \hbox (2.19875pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 -1.66137261e-4| 
+ []
+
+
+Overfull \hbox (0.69276pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 3.25814671e-4| 
+ []
+
+
+Overfull \hbox (3.62677pt too wide) in paragraph at lines 63--63
+[]\T2A/ftm/m/n/6 -3.56329759e-4| 
+ []
+
+) [65
+
+
+
+]
+\openout2 = `91-appendix2.aux'.
+
+ (./91-appendix2.tex
+Underfull \hbox (badness 2512) in paragraph at lines 1--1
+[]\T2A/ftm/b/n/17.28 Приложение []Пример при^^?ме^^?не^^?ния вей^^?влет^^?но^^?
+го
+ []
+
+<inc/graphics/ex.jpg, id=860, 855.94781pt x 554.07pt>
+File: inc/graphics/ex.jpg Graphic file (type jpg)
+
+<use inc/graphics/ex.jpg>
+Package pdftex.def Info: inc/graphics/ex.jpg used on input line 6.
+(pdftex.def)             Requested size: 427.97285pt x 277.03432pt.
+) [66
+
+
+
+ <./inc/graphics/ex.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+ (./rpz.aux
+(./00-abstract.aux) (./10-defines.aux) (./11-abbrev.aux) (./12-intro.aux)
+(./20-analysis.aux) (./30-design.aux) (./40-impl.aux) (./50-research.aux)
+(./80-conclusion.aux) (./81-biblio.aux) (./90-appendix1.aux)
+(./91-appendix2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package rerunfilecheck Info: File `rpz.out' has not changed.
+(rerunfilecheck)             Checksum: D1606249D3F85F2DB949F9EDAC995E0E;14843.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+ ) 
+Here is how much of TeX's memory you used:
+ 22744 strings out of 494816
+ 369054 string characters out of 3177878
+ 579494 words of memory out of 3000000
+ 25026 multiletter control sequences out of 15000+200000
+ 35733 words of font info for 86 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 60i,17n,75p,4063b,2354s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/scalable-cyrfonts-tex/6r.enc} </home/stroyk
+ova/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1440.600pk></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmb6w.pf
+b></usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmr6w.pfb></usr/s
+hare/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmri6w.pfb>
+Output written on rpz.pdf (66 pages, 1462622 bytes).
+PDF statistics:
+ 1026 PDF objects out of 1200 (max. 8388607)
+ 833 compressed objects within 9 object streams
+ 262 named destinations out of 1000 (max. 500000)
+ 566 words of extra memory for PDF output out of 10000 (max. 10000000)
+

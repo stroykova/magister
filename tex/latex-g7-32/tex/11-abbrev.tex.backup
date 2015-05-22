@@ -1,0 +1,36 @@
+\Abbreviations %% Список обозначений и сокращений в тексте
+\begin{description}
+\item[CWT] continuous wavelet transform, непрерывное вейвлет-преобразование
+\end{description}
+\begin{description}
+\item[DWT] discrete wavelet transform, дискретное вейвлет-преобразование
+\end{description}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "rpz"
+%%% End:
+\begin{description}
+\item[YUV] цветовая модель, в которой цвет представляется как 3 компоненты — яркость (Y) и две цветоразностных (U и V)
+\end{description}
+
+\begin{description}
+\item[YDbDr] цветовая модель, в которой цвет представляется как 3 компоненты — яркость (Y) и две цветоразностных (Db и Dr)
+\end{description}
+
+\begin{description}
+\item[YIQ] цветовая модель, в которой цвет представляется как 3 компоненты — яркость (Y) и две цветоразностных (I и Q)
+\end{description}
+
+\begin{description}
+\item[RGB (ARGB)] аддитивная цветовая модель, в которой цвет представляется как 3 компоненты — красная (R), синяя (B) и зеленая (G), 
+значение которых добавляется к значению черного цвета
+\end{description}
+
+\begin{description}
+\item[HSV] цветовая модель, в которой цвет представляется как 3 компоненты - Hue — цветовой тон, 
+Saturation — насыщенность, Value (значение цвета) или Brightness — яркость.
+\end{description}
+
+\begin{description}
+\item[CMYK] цветовая модель, в которой цвет представляется компонентами: C - Cyan, M - Magenta, Y - Yellow, B - Black
+\end{description}

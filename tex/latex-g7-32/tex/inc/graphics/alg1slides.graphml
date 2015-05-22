@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.12.2-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key attr.name="Description" attr.type="string" for="graph" id="d7"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d7"/>
+    <node id="n0">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="40.0" width="212.14583333333326" x="124.15000000000003" y="-41.09550856135439"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="49.83203125" x="81.15690104166663" y="11.015625">Начало</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="40.0" width="212.14583333333326" x="590.9416666666662" y="209.2319581053123"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="43.2578125" x="84.44401041666663" y="11.015625">Конец</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.1458333333332" x="124.15000000000015" y="107.43782477197891"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="143.5234375" x="34.3111979166666" y="4.03125">Составление системы
+ коэффициентов</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333326" x="124.15000000000003" y="157.32115810531224"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="130.8671875" x="40.63932291666663" y="11.015625">Разбиение на блоки</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333337" x="590.9416666666662" y="159.34862477197896"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="148.328125" x="31.908854166666686" y="4.03125">Запись кодированных 
+данных в файл</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333337" x="124.14999999999998" y="7.671158105312259"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="108.14453125" x="52.000651041666686" y="4.03125">Инициализация 
+параметров</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.1458333333332" x="124.15000000000003" y="57.554491438645584"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="139.80859375" x="36.1686197916666" y="4.03125">Чтение графических 
+данных из файла</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333337" x="590.9416666666662" y="109.46529143864564"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="172.521484375" x="19.812174479166686" y="4.03125">Кодирование алгоритмом 
+без потерь</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333337" x="590.941666666666" y="59.58195810531231"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="129.021484375" x="41.562174479166686" y="4.03125">Поиск и обнуление 
+коэффициентов</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.start2">
+          <y:Geometry height="40.0" width="80.0" x="190.22291666666672" y="257.6343047719789"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="12.208984375" x="33.8955078125" y="11.015625">А<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.start2">
+          <y:Geometry height="40.0" width="80.0" x="657.0145833333327" y="-40.18470856135434"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="12.232421875" x="33.8837890625" y="11.015625">B<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
+          <y:Geometry height="40.0" width="212.14583333333326" x="357.545833333333" y="8.969984771978943"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="190.462890625" x="10.841471354166629" y="4.03125">Вейвлетное преобразование,
+размер блока равен единице</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.loopLimitEnd">
+          <y:Geometry height="40.0" width="212.14583333333326" x="357.545833333333" y="259.2974514386456"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="186.6484375" x="12.748697916666629" y="11.015625">Вейвлетное преобразование</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.start2">
+          <y:Geometry height="40.0" width="80.0" x="423.61874999999964" y="-41.09550856135439"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="12.208984375" x="33.8955078125" y="11.015625">А</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.start2">
+          <y:Geometry height="40.0" width="80.0" x="423.61874999999964" y="309.3629447719789"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="12.232421875" x="33.8837890625" y="11.015625">Б</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
+          <y:Geometry height="40.0" width="212.14583333333326" x="124.15000000000009" y="207.47773143864558"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="146.259765625" x="32.94303385416663" y="4.03125">Кодирование блоков,
+обработаны все блоки</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.loopLimitEnd">
+          <y:Geometry height="40.0" width="212.14583333333326" x="590.9416666666662" y="9.698624771978984"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="136.2578125" x="37.94401041666663" y="11.015625">Кодирование блоков</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333326" x="357.545833333333" y="209.2319581053123"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="144.443359375" x="33.85123697916663" y="4.03125">Уменьшение размера 
+блока в 2 раза</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333326" x="357.545833333333" y="59.03547810531228"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="181.15234375" x="15.496744791666629" y="4.03125">Преобразование по ширине
+(строки)</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333326" x="357.545833333333" y="109.10097143864562"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="176.587890625" x="17.77897135416663" y="4.03125">Преобразование по высоте
+(столбцы)</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="212.14583333333326" x="357.545833333333" y="159.16646477197895"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="183.232421875" x="14.456705729166629" y="11.015625">Преобразование по глубине</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <edge id="e0" source="n2" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n4" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n5" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n6" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n0" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n7" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n8" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n3" target="n15">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n13" target="n11">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n12" target="n14">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n15" target="n9">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n16" target="n8">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n10" target="n16">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d0">
+    <y:Resources/>
+  </data>
+</graphml>

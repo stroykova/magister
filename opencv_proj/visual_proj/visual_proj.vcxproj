@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB881CA9-59B4-4DA3-B1CD-EB136EB54A31}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>visual_proj</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\include\opencv;$(SolutionDir)..\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)..\bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <CompileAsManaged>true</CompileAsManaged>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_core248.lib;opencv_imgproc248.lib;opencv_highgui248.lib;opencv_ml248.lib;opencv_video248.lib;opencv_objdetect248.lib;opencv_legacy248.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\opencv_proj\Decimator.cpp" />
+    <ClCompile Include="..\opencv_proj\median.cpp" />
+    <ClCompile Include="..\opencv_proj\PrepareData.cpp" />
+    <ClCompile Include="..\opencv_proj\PrintFile.cpp" />
+    <ClCompile Include="..\opencv_proj\wavelet.cpp" />
+    <ClCompile Include="..\opencv_proj\WaveletMatrix.cpp" />
+    <ClCompile Include="..\opencv_proj\WaveletPack.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="visual_proj.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\opencv_proj\Codes.h" />
+    <ClInclude Include="..\opencv_proj\Decimator.h" />
+    <ClInclude Include="..\opencv_proj\median.h" />
+    <ClInclude Include="..\opencv_proj\PrepareData.h" />
+    <ClInclude Include="..\opencv_proj\PrintFile.h" />
+    <ClInclude Include="..\opencv_proj\targetver.h" />
+    <ClInclude Include="..\opencv_proj\wavelet.h" />
+    <ClInclude Include="..\opencv_proj\WaveletMatrix.h" />
+    <ClInclude Include="..\opencv_proj\WaveletPack.h" />
+    <ClInclude Include="Form1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <DependentUpon>Form1.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\decoder\decoder.vcxproj">
+      <Project>{682a086d-29c6-4413-8b0d-7f594dc115b1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\opencv_proj\opencv_proj.vcxproj">
+      <Project>{a29c42cb-96e0-4f14-b375-53fcba9bf647}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

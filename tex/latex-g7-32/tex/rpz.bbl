@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Pup01}
+\selectlanguageifdefined{russian}
+\BibEmph{Добеши,~И.} Десять лекций по вейвлетам~/
+  И.~Добеши. ---
+\newblock Ижевск: НИЦ <<Регулярная и хаотическая
+  динамика>>, 2001.
+
+\bibitem{Pup02}
+\selectlanguageifdefined{russian}
+Методы сжатия данных. Устройство
+  архиваторов, сжатие изображений и видео~/
+  Д.~Ватолин, А.~Ратушняк, М.~Смирнов, В.~Юкин.
+  ---
+\newblock М.: ДИАЛОГ-МИФИ, 2003.
+
+\bibitem{Pup05}
+\selectlanguageifdefined{russian}
+Алгоритмы: построение и анализ~/ Т.~Кормен,
+  Ч.~Лейзерсон, Р.~Ривест, К.~Штайн. ---
+\newblock М.: Издательский дом «Вильямс», 2005.
+
+\bibitem{Pup07}
+\selectlanguageifdefined{russian}
+\BibEmph{Артюшенко,~В.М.} Цифровое сжатие
+  видеоинформации и звука~/ В.М.~Артюшенко,
+  О.И.~Шелухин, М.Ю.~Афонин. ---
+\newblock М.: Издательско-торговая корпорация
+  «Дашков и Ко», 2003.
+
+\bibitem{Pup03}
+\selectlanguageifdefined{russian}
+\BibEmph{Уэлстид,~С.} Фракталы и вейвлеты для
+  сжатия изображений в действии~/ С.~Уэлстид.
+  ---
+\newblock М.: Издательство Триумф, 2003.
+
+\bibitem{Pup13}
+\selectlanguageifdefined{russian}
+\BibEmph{Тропченко,~А.Ю.} Методы сжатия
+  изображений, аудиосигналов и видео~/
+  А.Ю.~Тропченко, А.А.~Тропченко. ---
+\newblock СПб.: ИТМО Государственный
+  Университет, 2009.
+
+\bibitem{Pup04}
+\selectlanguageifdefined{russian}
+\BibEmph{Воробьев,~В.И.} Теория и практика
+  вейвлет-преобразования~/ В.И.~Воробьев,
+  В.Г.~Грибунин. ---
+\newblock СПб.: Типография ВУС, 1999.
+
+\bibitem{Pup10}
+\selectlanguageifdefined{russian}
+\BibEmph{Столниц,~Э.} Вейвлеты в компьютерной
+  графике, теория и приложения~/ Э.~Столниц,
+  Т.~ДеРоуз, Д.~Салезин. ---
+\newblock М.: Ижевск, 2002.
+
+\bibitem{Pup12}
+\selectlanguageifdefined{russian}
+\BibEmph{Стройкова,~К.А.} Применение
+  вейвлетного преобразования для сжатия
+  изображений~/ К.А.~Стройкова, О.В.~Рогозин.
+  ---
+\newblock М.: Издательство МГТУ им. Н.Э. Баумана,
+  2013.
+
+\bibitem{Pup11}
+\selectlanguageifdefined{russian}
+\BibEmph{Стройкова,~К.А.} Особенности обработки
+  растровых изображений на основе
+  дискретного вейвлет-преобразования~/
+  К.А.~Стройкова, О.В.~Рогозин. ---
+\newblock М.: Издательство МГТУ им. Н.Э. Баумана,
+  2013.
+
+\end{thebibliography}

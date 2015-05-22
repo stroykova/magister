@@ -1,0 +1,156 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+
+% "А вот теперь --- слайды!"
+\usepackage{slides}
+
+% ШРИФТЫ
+% Нужны рубленные шрифты -- раскомментируйте стоку ниже.
+% Нужны шрифты с засечками --- закомментируйте эту строку.
+% \renewcommand{\familydefault}{\sfdefault} % Переключает на рубленный шрифт.
+% Шрифты Times и Arial, если стоит пакет cyrtimes.
+\IfFileExists{cyrtimes.sty}
+    {
+        \usepackage{cyrtimespatched}
+    }
+    {
+        % А если Times нету, то будет CM...
+    }
+
+% \renewcommand{\seriesdefault}{b} % для шрифта с засечками, это предпочтительно
+% \renewcommand{\seriesdefault}{sbc} % для рубленного шрифта
+
+
+% Прочие пакетики
+% Графика.
+\usepackage{graphicx}
+
+% Настройка презентации
+% Студент и руководитель.
+\def\Student{Иванов Иван Иванович}
+\def\Advisor{Петров Пётр Петрович}
+% \def\Person
+% \def\Affilation
+% Титул
+\def\Title{Ускорение темпов инновационой модернизации презентаций}
+% Титул для нижнего колонтитула. Может быть сокращённым
+\def\FooterTitle{\Title}
+\def\SubTitle{Квалификационная работа}
+\input{title.tex}
+
+% Верхний заголовок: пустой
+% Нижний заголовок по-умолчанию:
+% \lfoot{\Title} % слева
+% \cfoot{} % цент пуст
+% \rfoot{\thepage} % справа
+
+% \renewcommand{\baselinestretch}{1.5}
+% \linespread{1.6}
+
+
+%% Переносы в презентации смотряся не очень.
+\hyphenpenalty 10000
+\sloppy
+
+
+\begin{document}
+
+% \raggedright -- грубое выавнивание по левому краю.
+% \raggedright
+
+\TitleSlide
+
+% Команды section и subsection начинают новый слайд.
+
+\section{Цель и задачи работы}
+
+\emph{Целью работы} является создание шаблона презентаций академического стиля.
+
+\subsubsection{Решаемые задачи}
+
+\begin{enumerate}
+\item Выбрать из существующих стилей презентаций единственный стиль, наиболее близкий к желаемому.
+\item Доработать его в соответствии с собственными требованиями.
+\item Создать тестовые примеры, демонстрирующие возможности стиля.
+\item Проверить текстовые примеры в разных дистрибутивах Latex.
+\end{enumerate}
+
+\section{Сравнение списков}
+
+Простой текст без списков.
+
+\begin{itemize}
+\item Список без номеров (\verb+itemize+).
+\item Длинный-предлинный элемент списка с переносом на следующую строку.
+\end{itemize}
+
+Простой текст без списков.
+
+Второй абзац простого текста.
+
+\begin{enumerate}
+\item Пронумерованный список (\verb+enumerate+).
+\item Длинный-предлинный элемент списка с переносом на следующую строку.
+\end{enumerate}
+
+\section{Создание слайда}
+
+\begin{enumerate}
+\item Добавление нового слайда: \verb+\section{Заголовок}+.
+\item Можно использовать множество команд:
+\begin{itemize}
+\item нумерованные и ненумерованые списки;
+\item формул ($e=mc^2$);
+\item моноширный текст (\verb+\section+);
+\item разные размеры шрифтов: \scriptsize scriptsize, \tiny tiny, \small small,
+\normalsize normalsize, \large large, \Large Large, \LARGE LARGE \normalsize\dots;
+\item таблицы и фигуры.
+\end{itemize}
+\item Latex регулирует интервалы между абзацами и перечислениями для улучшения вида страницы.
+\end{enumerate}
+
+\section{Вёрстка слайда в две колонки}
+
+\begin{minipage}[m]{.34\textwidth}
+\includegraphics[width=\textwidth]{sample-image}
+\centerline{Результаты}
+\end{minipage}
+%
+\begin{minipage}[m]{.65\textwidth}
+\raggedright
+Для вёрстки отдельных слайдов в две колонки используется окружение
+  \verb+minipage+. Здесь использован \verb+\raggedright+ для временного выравнвиания влево.
+
+Пример кода с неравномерными колонками (для равномерных используйте 49 и 49):
+
+\begin{verbatim}
+\begin{minipage}[m]{.34\textwidth}
+  \includegraphics...
+\end{minipage}
+\begin{minipage}[m]{.64\textwidth}
+  Текст
+\end{minipage}
+\end{verbatim}
+
+% Недостаток использования \verb+minipage+ --- исчезают интервалы между абзацами.
+\end{minipage}
+
+\section{Выводы}
+
+\begin{enumerate}
+\item Шаблон презентации в целом отвечает поставленным требованиям.
+
+\item У шаблона в настоящий момент имеются следующие недостатки:
+\begin{itemize}
+\item при использовании \verb+minipage+ исчезает межабзацный интервал;
+\item формулы по-умолчанию несколько меньше текста (при использовании \texttt{cyrtimes});
+\item используется выравнивание <<по ширине>>.
+\end{itemize}
+
+\end{enumerate}
+
+
+\end{document}
+

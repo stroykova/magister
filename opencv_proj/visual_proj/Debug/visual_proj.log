@@ -1,0 +1,34 @@
+﻿Build started 28.05.2014 1:35:45.
+     1>Project "F:\repo\magister\opencv_proj\visual_proj\visual_proj.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\visual_proj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         f:\Application\VS2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\visual_proj.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ..\opencv_proj\Decimator.cpp ..\opencv_proj\median.cpp ..\opencv_proj\PrepareData.cpp ..\opencv_proj\PrintFile.cpp ..\opencv_proj\wavelet.cpp ..\opencv_proj\WaveletMatrix.cpp ..\opencv_proj\WaveletPack.cpp visual_proj.cpp /clr:nostdlib 
+         Decimator.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\Codes.h(21): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>..\opencv_proj\Decimator.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+         median.cpp
+     1>..\opencv_proj\median.cpp(5): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         PrepareData.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\PrepareData.h(4): fatal error C1083: Cannot open include file: 'cv.h': No such file or directory
+         PrintFile.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\PrintFile.h(4): fatal error C1083: Cannot open include file: 'cv.h': No such file or directory
+         wavelet.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\PrepareData.h(4): fatal error C1083: Cannot open include file: 'cv.h': No such file or directory
+         WaveletMatrix.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\Codes.h(21): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>..\opencv_proj\WaveletMatrix.cpp(6): fatal error C1083: Cannot open include file: 'cv.h': No such file or directory
+         WaveletPack.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\Codes.h(21): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>..\opencv_proj\WaveletPack.cpp(9): fatal error C1083: Cannot open include file: 'cv.h': No such file or directory
+         visual_proj.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\Codes.h(21): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Generating Code...
+     1>Done Building Project "F:\repo\magister\opencv_proj\visual_proj\visual_proj.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.59

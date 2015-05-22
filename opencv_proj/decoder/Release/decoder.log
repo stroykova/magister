@@ -1,0 +1,55 @@
+﻿Build started 01.06.2014 14:30:35.
+     1>Project "F:\repo\magister\opencv_proj\decoder\decoder.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\decoder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         f:\Application\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\decoder.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\opencv_proj\WaveletPack.cpp
+         WaveletPack.cpp
+     1>f:\repo\magister\opencv_proj\opencv_proj\Codes.h(21): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>f:\repo\magister\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Application\VS2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\opencv_proj\WaveletPack.cpp(58): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>..\opencv_proj\WaveletPack.cpp(74): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Application\VS2010\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\opencv_proj\WaveletPack.cpp(75): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Application\VS2010\VC\include\string.h(110) : see declaration of 'strcat'
+     1>..\opencv_proj\WaveletPack.cpp(101): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Application\VS2010\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\opencv_proj\WaveletPack.cpp(116): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(210): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(210): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(210): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(214): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(234): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(253): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(296): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(314): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\opencv_proj\WaveletPack.cpp(332): warning C4018: '>=' : signed/unsigned mismatch
+       Link:
+         f:\Application\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\repo\magister\opencv_proj\..\bin\Release\decoder.exe" /INCREMENTAL:NO /NOLOGO opencv_core248.lib opencv_imgproc248.lib opencv_highgui248.lib opencv_ml248.lib opencv_video248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\decoder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\repo\magister\bin\Release\decoder.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\repo\magister\opencv_proj\..\bin\Release\decoder.lib" /MACHINE:X86 Release\Decimator.obj
+         Release\median.obj
+         Release\PrepareData.obj
+         Release\PrintFile.obj
+         Release\wavelet.obj
+         Release\WaveletMatrix.obj
+         Release\WaveletPack.obj
+         Release\decoder.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         decoder.vcxproj -> F:\repo\magister\opencv_proj\..\bin\Release\decoder.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\repo\magister\opencv_proj\..\bin\Release\decoder.exe;#1" /manifest Release\decoder.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\decoder.unsuccessfulbuild".
+         Touching "Release\decoder.lastbuildstate".
+     1>Done Building Project "F:\repo\magister\opencv_proj\decoder\decoder.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

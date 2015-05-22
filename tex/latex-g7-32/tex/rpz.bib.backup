@@ -1,0 +1,81 @@
+@Comment А вот так оформляется библиография при помощи BibTeX.
+
+@Book{Pup01,
+  author =		 {Добеши, И.},
+  title = 		 {Десять лекций по вейвлетам},
+  publisher = 	 {Ижевск: НИЦ <<Регулярная и хаотическая динамика>>},
+  year = 		 {2001},
+  language =     "russian"
+}
+
+@Book{Pup02,
+  author =               {Ватолин, Д. and Ратушняк, А. and Смирнов, М. and Юкин, В.},
+  title =                {Методы сжатия данных. Устройство архиваторов, сжатие изображений и видео},
+  publisher =    {М.: ДИАЛОГ-МИФИ},
+  year =                 {2003},
+  language =     "russian"
+}
+
+@Book{Pup03,
+  author =               {Уэлстид, С.},
+  title =                {Фракталы и вейвлеты для сжатия изображений в действии},
+  publisher =    {М.: Издательство Триумф},
+  year =                 {2003},
+  language =     "russian"
+}
+
+@Book{Pup04,
+  author =               {Воробьев, В.И. and Грибунин, В.Г.},
+  title =                {Теория и практика вейвлет-преобразования},
+  publisher =    {СПб.: Типография ВУС},
+  year =                 {1999},
+  language =     "russian"
+}
+
+@Book{Pup05,
+  author =               {Кормен, Т. and Лейзерсон, Ч. and Ривест, Р. and Штайн, К.},
+  title =                {Алгоритмы: построение и анализ},
+  publisher =    {М.: Издательский дом «Вильямс»},
+  year =                 {2005},
+  language =     "russian"
+}
+
+@Book{Pup06,
+  author =               {},
+  title =                {MSU Quality Measurement Tool: Информация о метриках MSU Graphics & Media Lab (Video Group)},
+  publisher =    {},
+  year =                 {},
+  language =     "russian"
+}
+
+@Book{Pup07,
+  author =               {Артюшенко, В.М. and Шелухин, О.И. and Афонин, М.Ю.},
+  title =                {Цифровое сжатие видеоинформации и звука},
+  publisher =    {М.: Издательско-торговая корпорация «Дашков и Ко»},
+  year =                 {2003},
+  language =     "russian"
+}
+
+@Book{Pup08,
+  author =               {Голдовский, Е.М.},
+  title =                {Кинопроекция в вопросах и ответах},
+  publisher =    {М.: «Искусство»},
+  year =                 {1971},
+  language =     "russian"
+}
+
+@Book{Pup09,
+  author =               {Жиров, В.М. and Голуб, Я.В.},
+  title =                {Медико-психологические аспекты применения свето-звуковой стимуляции и биологически обратной связи},
+  publisher =    {СПб.: ООО «Кэри»},
+  year =                 {2007},
+  language =     "russian"
+}
+
+@Book{Pup10,
+  author =               {Столниц, Э. and ДеРоуз, Т. and Салезин, Д.},
+  title =                {Вейвлеты в компьютерной графике, теория и приложения},
+  publisher =    {М.: Ижевск},
+  year =                 {2002},
+  language =     "russian"
+}
